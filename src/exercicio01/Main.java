@@ -18,9 +18,6 @@ public class Main {
 
 
         System.out.println("Nome --> " + jogador.nome);
-        System.out.println("Pontuação na rodada 1 --> " + jogador.pontuacao[0]);
-        System.out.println("Pontuação na rodada 2 --> " + jogador.pontuacao[1]);
-        System.out.println("Pontuação na rodada 3 --> " + jogador.pontuacao[2]);
         System.out.println("Pontuação final --> " + jogador.calcularPontuacao());
 
     }
