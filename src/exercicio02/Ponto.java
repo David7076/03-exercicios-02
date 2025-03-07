@@ -20,7 +20,7 @@ public class Ponto {
     }
 
     // método para retornar o ponto mais proximo da origem
-    public Ponto maisProximadaOrigem(Ponto p1, Ponto p2) {
+    public  static Ponto maisProximadaOrigem(Ponto p1, Ponto p2) {
         double dp1 = p1.calcularDistanciaAteOrigem();
         double dp2 = p2.calcularDistanciaAteOrigem();
         if(dp1 < dp2) {
