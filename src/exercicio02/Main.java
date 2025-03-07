@@ -37,6 +37,23 @@ public class Main {
 
 
 
+<<<<<<< HEAD
+=======
+        System.out.print("Informe as coordendas do ponto 2: ");
+        p2.x = scanner.nextInt();
+        p2.y = scanner.nextInt();
+
+
+        System.out.println("Distancia do p1 para o p2: " + format.format(p1.calcularDistancia(p2)));
+
+        // impressao da distancia de cada ponto ate a origem
+        System.out.print("Distancia do p1 ate a origem: " + format.format(p1.calcularDistanciaAteOrigem()));
+
+        // impressao do ponto mais proximo da origem
+        System.out.println();
+        Ponto aux = Ponto.maisProximadaOrigem(p1,p2);
+        System.out.println("Ponto mais proximo: " + aux.formatarPonto());
+>>>>>>> 991678efef9b7f082e02ca249ab693011e1ac558
 
 
     }
